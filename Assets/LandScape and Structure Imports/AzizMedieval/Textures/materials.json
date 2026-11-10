@@ -1,0 +1,332 @@
+{
+  "Beeswax": {
+    "metallic": 0.0,
+    "roughness": 0.5299999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Beeswax_BaseColor.png",
+      "Roughness": "Beeswax_Roughness.png",
+      "Normal": "Beeswax_Normal.png"
+    }
+  },
+  "Calcaire_00": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_00_BaseColor.png",
+      "Roughness": "Calcaire_00_Roughness.png",
+      "Normal": "Calcaire_00_Normal.png"
+    }
+  },
+  "Calcaire_01": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_01_BaseColor.png",
+      "Roughness": "Calcaire_01_Roughness.png",
+      "Normal": "Calcaire_01_Normal.png"
+    }
+  },
+  "Calcaire_02": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_02_BaseColor.png",
+      "Roughness": "Calcaire_02_Roughness.png",
+      "Normal": "Calcaire_02_Normal.png"
+    }
+  },
+  "Calcaire_03": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_03_BaseColor.png",
+      "Roughness": "Calcaire_03_Roughness.png",
+      "Normal": "Calcaire_03_Normal.png"
+    }
+  },
+  "Calcaire_04": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_04_BaseColor.png",
+      "Roughness": "Calcaire_04_Roughness.png",
+      "Normal": "Calcaire_04_Normal.png"
+    }
+  },
+  "Calcaire_05": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_05_BaseColor.png",
+      "Roughness": "Calcaire_05_Roughness.png",
+      "Normal": "Calcaire_05_Normal.png"
+    }
+  },
+  "Calcaire_06": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Calcaire_06_BaseColor.png",
+      "Roughness": "Calcaire_06_Roughness.png",
+      "Normal": "Calcaire_06_Normal.png"
+    }
+  },
+  "Ceramic_Green": {
+    "metallic": 0.0,
+    "roughness": 0.28999999165534973,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Ceramic_Green_BaseColor.png",
+      "Roughness": "Ceramic_Green_Roughness.png",
+      "Normal": "Ceramic_Green_Normal.png"
+    }
+  },
+  "Ceramic_Ochre": {
+    "metallic": 0.0,
+    "roughness": 0.3499999940395355,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Ceramic_Ochre_BaseColor.png",
+      "Roughness": "Ceramic_Ochre_Roughness.png",
+      "Normal": "Ceramic_Ochre_Normal.png"
+    }
+  },
+  "Charcoal": {
+    "metallic": 0.0,
+    "roughness": 0.9800000190734863,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Charcoal_BaseColor.png",
+      "Roughness": "Charcoal_Roughness.png",
+      "Normal": "Charcoal_Normal.png"
+    }
+  },
+  "Chene_X": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Chene_X_BaseColor.png",
+      "Roughness": "Chene_X_Roughness.png",
+      "Normal": "Chene_X_Normal.png"
+    }
+  },
+  "Chene_Y": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Chene_Y_BaseColor.png",
+      "Roughness": "Chene_Y_Roughness.png",
+      "Normal": "Chene_Y_Normal.png"
+    }
+  },
+  "Chene_Z": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Chene_Z_BaseColor.png",
+      "Roughness": "Chene_Z_Roughness.png",
+      "Normal": "Chene_Z_Normal.png"
+    }
+  },
+  "Enduit_ivoire": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Enduit_ivoire_BaseColor.png",
+      "Roughness": "Enduit_ivoire_Roughness.png",
+      "Normal": "Enduit_ivoire_Normal.png"
+    }
+  },
+  "Enduit_ocre": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Enduit_ocre_BaseColor.png",
+      "Roughness": "Enduit_ocre_Roughness.png",
+      "Normal": "Enduit_ocre_Normal.png"
+    }
+  },
+  "Fer_forge": {
+    "metallic": 0.75,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Fer_forge_BaseColor.png",
+      "Roughness": "Fer_forge_Roughness.png",
+      "Normal": "Fer_forge_Normal.png"
+    }
+  },
+  "Herbe": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Herbe_BaseColor.png",
+      "Roughness": "Herbe_Roughness.png",
+      "Normal": "Herbe_Normal.png"
+    }
+  },
+  "Linen_Cream": {
+    "metallic": 0.0,
+    "roughness": 0.9100000262260437,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Linen_Cream_BaseColor.png",
+      "Roughness": "Linen_Cream_Roughness.png",
+      "Normal": "Linen_Cream_Normal.png"
+    }
+  },
+  "Linen_Natural": {
+    "metallic": 0.0,
+    "roughness": 0.9300000071525574,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Linen_Natural_BaseColor.png",
+      "Roughness": "Linen_Natural_Roughness.png",
+      "Normal": "Linen_Natural_Normal.png"
+    }
+  },
+  "Mortier": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Mortier_BaseColor.png",
+      "Roughness": "Mortier_Roughness.png",
+      "Normal": "Mortier_Normal.png"
+    }
+  },
+  "Ombre_interieure": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Ombre_interieure_BaseColor.png",
+      "Roughness": "Ombre_interieure_Roughness.png",
+      "Normal": "Ombre_interieure_Normal.png"
+    }
+  },
+  "Rope_Hemp": {
+    "metallic": 0.0,
+    "roughness": 0.9599999785423279,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Rope_Hemp_BaseColor.png",
+      "Roughness": "Rope_Hemp_Roughness.png",
+      "Normal": "Rope_Hemp_Normal.png"
+    }
+  },
+  "Sol_terre": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Sol_terre_BaseColor.png",
+      "Roughness": "Sol_terre_Roughness.png",
+      "Normal": "Sol_terre_Normal.png"
+    }
+  },
+  "Tuile_00": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_00_BaseColor.png",
+      "Roughness": "Tuile_00_Roughness.png",
+      "Normal": "Tuile_00_Normal.png"
+    }
+  },
+  "Tuile_01": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_01_BaseColor.png",
+      "Roughness": "Tuile_01_Roughness.png",
+      "Normal": "Tuile_01_Normal.png"
+    }
+  },
+  "Tuile_02": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_02_BaseColor.png",
+      "Roughness": "Tuile_02_Roughness.png",
+      "Normal": "Tuile_02_Normal.png"
+    }
+  },
+  "Tuile_03": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_03_BaseColor.png",
+      "Roughness": "Tuile_03_Roughness.png",
+      "Normal": "Tuile_03_Normal.png"
+    }
+  },
+  "Tuile_04": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_04_BaseColor.png",
+      "Roughness": "Tuile_04_Roughness.png",
+      "Normal": "Tuile_04_Normal.png"
+    }
+  },
+  "Tuile_05": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_05_BaseColor.png",
+      "Roughness": "Tuile_05_Roughness.png",
+      "Normal": "Tuile_05_Normal.png"
+    }
+  },
+  "Tuile_06": {
+    "metallic": 0.0,
+    "roughness": 0.7799999713897705,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Tuile_06_BaseColor.png",
+      "Roughness": "Tuile_06_Roughness.png",
+      "Normal": "Tuile_06_Normal.png"
+    }
+  },
+  "Verre_ancien": {
+    "metallic": 0.0,
+    "roughness": 0.20000000298023224,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Verre_ancien_BaseColor.png",
+      "Roughness": "Verre_ancien_Roughness.png",
+      "Normal": "Verre_ancien_Normal.png"
+    }
+  },
+  "Wool_Rust": {
+    "metallic": 0.0,
+    "roughness": 0.9399999976158142,
+    "world_texture_size": 4.0,
+    "files": {
+      "BaseColor": "Wool_Rust_BaseColor.png",
+      "Roughness": "Wool_Rust_Roughness.png",
+      "Normal": "Wool_Rust_Normal.png"
+    }
+  }
+}
