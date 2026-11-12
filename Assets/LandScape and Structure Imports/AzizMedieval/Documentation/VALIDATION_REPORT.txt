@@ -1,0 +1,83 @@
+MEDIEVAL HOUSES - TECHNICAL VALIDATION REPORT
+
+BLENDER AND FBX
+Tested with Blender 3.6.23.
+304 individual FBX files reimported with no remaining errors or warnings.
+UV maps and materials are present. All 99 PNG textures are 1024 x 1024 pixels.
+Texture references are relative to the supplied package folders.
+304 reusable assets, 324 scene instances and 33 materials.
+The complete scene contains 1,572,046 evaluated triangles.
+Per-asset triangle counts are provided in asset_manifest.json.
+
+UNITY
+Tested with Unity 6000.6.0f1 and Universal Render Pipeline 17.6.
+304 individual prefabs with identity root transforms and assigned URP materials.
+Architecture and furniture include colliders: 1,189 across the prefab library.
+Prefabs are grouped under Architecture, Furniture, Props and Environment.
+The demonstration scene assembles individual prefab instances.
+The optional walkthrough uses Input System 1.20.
+
+ASSET STORE TOOLS VALIDATION
+The official validator completed 36 checks for the 3D/Environments/Historic
+category: 35 passed, 0 failed, 1 warning and 0 undefined results.
+The remaining Model Orientation warning identifies 32 FBX files containing
+non-identity mesh transforms. The check tests local transform rotations rather
+than measuring final visible facing. Model assembly and import rotations remain
+in these FBX hierarchies. All 304 supplied prefab roots were separately checked:
+position and rotation are zero, and scale is one. The asymmetric import-basis
+check and navigation tests validate the supplied setup and traversal; they do
+not imply that every local FBX transform has been normalized.
+
+NAVIGATION
+Five physical routes passed: all three entrances in both directions, plus
+both staircases including ascent, landing, upper-room access and descent.
+Character height: 1.75 m. Radius: 0.22 m. Step offset: 0.23 m.
+Tests use CharacterController.Move and PhysX at 60 Hz, without jumping or
+teleporting between waypoints. They cover these routes and character dimensions.
+Other character sizes and mobile/VR performance have not been tested.
+
+EXTERIOR GROUND AND PAVEMENT ACCESS
+The demonstration's surrounding ground is at -0.10 m in source coordinates.
+The courtyard base is at +0.02 m and the paving reaches approximately +0.10 m,
+giving a rise of approximately 0.12-0.20 m. Building and paving placements,
+mesh geometry and the character's 0.23 m step offset are unchanged.
+Eleven additional physical routes passed using the saved demonstration's actual
+controller dimensions, layer, speed, gravity and collision settings: four edge
+loops, four diagonal corner loops and three exterior-to-house return routes.
+Edge loops include descent and re-entry without jumping. These extend the five
+doorway and stair routes above, for sixteen sampled routes in total.
+
+DOORWAY MASONRY
+All three doorway frames contain continuous recessed mortar; their front walls
+include matching arched reveals. The original stone meshes, UVs and arch pivots
+were preserved. The six changed FBX models passed a fresh import with no degenerate
+triangles, missing materials or invalid UVs.
+1,044 bidirectional and oblique ray checks found no gaps through the sampled
+arch joints, jambs and wall reveals; 69 checks confirmed the opening stays clear.
+Six close views were reviewed in Blender and six in Unity, covering each
+entrance from inside and outside. The five physical routes were rerun after
+the correction and passed. This check covers the repaired door surrounds.
+
+TIMBER, CANOPY AND DOOR CLEARANCES
+Fourteen timber braces were fitted to the adjoining posts and rails, using
+horizontal foot cuts and vertical head cuts in seven existing meshes.
+The workshop canopy was raised 0.10 m; its boards clear the stone arch by at
+least 0.047 m in the evaluated geometry. Door hinge placements were adjusted
+behind the masonry and 0.02 m upward, leaving 0.01 m above the ground floor.
+The two floor-joist assemblies were raised 0.06 m within the floor thickness.
+A small front corner of the weavers' lower stair landing was recessed for the
+door sweep; stair rise, upper landing and the floor opening remain unchanged.
+Each door was checked against the assembled scene at 19 positions, from closed
+to 90 degrees open in 5-degree increments: 57 poses, no surface intersections
+detected. The timber leaf has at least 0.02 m depth clearance from the front
+wall through that sweep. These geometric checks do not add door gameplay.
+Fourteen updated FBX models passed fresh import checks with no degenerate
+triangles. The inventory remains 304 reusable assets and 324 placed instances.
+
+PREVIEWS AND SCOPE
+Previews/ contains Blender renders. Unity/Previews/ contains Unity renders
+and is provided with the separate Unity delivery, outside the CGTrader ZIP.
+No LOD set is included. Doors are open in the demo; scripted door and furniture
+interactions are not included.
+This report records technical checks; marketplace acceptance is determined
+by each marketplace's review process.

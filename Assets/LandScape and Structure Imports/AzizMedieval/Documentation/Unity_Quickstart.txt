@@ -1,0 +1,16 @@
+AZIZ MEDIEVAL HOUSES - UNITY URP
+
+Tested configuration: Unity 6000.6.0f1, Universal RP 17.6, and Input System 1.20 for the optional walkthrough.
+Import into a URP project. The package deliberately does not replace your project graphics or input settings.
+Open Scenes/Medieval_Houses_Demo.unity and enter Play mode.
+Move: WASD, ZQSD, or arrow keys. Hold Shift to move faster. Hold the right mouse button to look; release it or press Escape to release the pointer.
+
+Prefabs are grouped by Architecture, Props, Furniture and Environment. Every exported model has its own prefab with materials assigned.
+Root pivots are at the floor or articulation hinge. The demonstration uses instances of these prefabs; it is not distributed as a single environment prefab.
+Architectural meshes use non-convex static MeshColliders so entrances, stair openings and floor openings remain usable. Furniture and props use one BoxCollider per mesh as an approximation.
+Grass and decorative ridge caps omit colliders. Roof-slope collisions use the roof deck rather than each tile.
+Movable doors have hinge pivots. The demo uses authored source rotations; there is no door-interaction gameplay system.
+
+Materials use baked BaseColor and tangent-space Normal maps. Textures/Packed contains URP metallic-smoothness maps: red = metallic, alpha = 1 minus source roughness.
+Texture UVs intentionally tile in metric space; generated secondary UVs are available for lightmapping. Lighting in the demo is realtime, not baked.
+The walkthrough is a lightweight navigation example, not a complete game or accessibility solution.
